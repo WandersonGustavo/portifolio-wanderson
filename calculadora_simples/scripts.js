@@ -1,4 +1,3 @@
-// Seleção dos elementos
 const display = document.querySelector("#displayInput");
 const botaoIgual = document.querySelector(".igual");
 const botaoPonto = document.querySelector(".ponto");
@@ -85,4 +84,6 @@ botaoIgual.addEventListener("click", () => {
 botaoPonto.addEventListener("click", inserePonto);
 botoesNumeros.forEach((botao) => botao.addEventListener("click", insereNumero));
 botoesOperadores.forEach((botao) => botao.addEventListener("click", insereOperador));
+
+
 
