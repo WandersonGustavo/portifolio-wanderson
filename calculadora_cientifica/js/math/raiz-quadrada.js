@@ -1,3 +1,3 @@
-export function raizQuadrada(a) {
+export function raizQ(a) {
     return Math.sqrt(a).toFixed(2);
 }
