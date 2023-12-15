@@ -1,12 +1,12 @@
-import { divisao } from "./math/divisao.js";
-import { fatorial } from "./math/fatorial.js";
-import { media } from "./math/media.js";
-import { multiplicacao } from "./math/multiplicacao.js";
-import { porcentagem } from "./math/porcentagem.js";
-import { potencia } from "./math/potencia.js";
-import { raizQuadrada } from "./math/raizQ.js";
-import { soma } from "./math/soma.js";
-import { subtracao } from "./math/subtracao.js";       
+import { divisao } from "./math/divisao.javaScript";
+import { fatorial } from "./math/fatorial.javaScript";
+import { media } from "./math/media.javaScript";
+import { multiplicacao } from "./math/multiplicacao.javaScript";
+import { porcentagem } from "./math/porcentagem.javaScript";
+import { potencia } from "./math/potencia.javaScript";
+import { raizQuadrada } from "./math/raizQ.javaScript";
+import { soma } from "./math/soma.javaScript";
+import { subtracao } from "./math/subtracao.javaScript";       
 
 export class App {
     static initialize(document) {
