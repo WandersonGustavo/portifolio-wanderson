@@ -4,7 +4,7 @@ import { media } from "./math/media.js";
 import { multiplicacao } from "./math/multiplicacao.js";
 import { porcentagem } from "./math/porcentagem.js";
 import { potencia } from "./math/potencia.js";
-import { raizQuadrada } from "./math/raiz-quadrada.js";
+import { raizQuadrada } from "./math/raizQ.js";
 import { soma } from "./math/soma.js";
 import { subtracao } from "./math/subtracao.js";       
 
@@ -80,8 +80,8 @@ export class App {
             resultadoPotencia.innerHTML = potencia(num1.value, num2.value);
             resultadoPotenciaInstead.innerHTML = potencia(num2.value, num1.value);
 
-            resultadoRaizQuadrada.innerHTML = raizQuadrada(num1.value);
-            resultadoRaizQuadradaInstead.innerHTML = raizQuadrada(num2.value);
+            resultadoRaizQ.innerHTML = raizQ(num1.value);
+            resultadoRaizQInstead.innerHTML = raizQ(num2.value);
 
             resultadoSoma.innerHTML = soma(num1.value, num2.value);
             resultadoSomaInstead.innerHTML = soma(num2.value, num1.value);
