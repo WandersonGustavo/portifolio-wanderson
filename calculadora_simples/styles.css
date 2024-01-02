@@ -63,10 +63,7 @@ button.operador {
 }
 
 
-footer ,page-wrap::after{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+footer {
     margin-top: 20px;
     padding: 0.5px;
     color: blue;
