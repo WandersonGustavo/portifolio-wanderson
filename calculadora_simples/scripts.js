@@ -86,4 +86,3 @@ botoesNumeros.forEach((botao) => botao.addEventListener("click", insereNumero));
 botoesOperadores.forEach((botao) => botao.addEventListener("click", insereOperador));
 
 
-
