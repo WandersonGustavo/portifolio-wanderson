@@ -4,7 +4,7 @@ import { media } from "./math/media.javaScript";
 import { multiplicacao } from "./math/multiplicacao.javaScript";
 import { porcentagem } from "./math/porcentagem.javaScript";
 import { potencia } from "./math/potencia.javaScript";
-import { raizQuadrada } from "./math/raizQ.javaScript";
+import { raizQ } from "./math/raizQ.javaScript";
 import { soma } from "./math/soma.javaScript";
 import { subtracao } from "./math/subtracao.javaScript";       
 
