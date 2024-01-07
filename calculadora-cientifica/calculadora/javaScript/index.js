@@ -102,7 +102,7 @@ import { media } from "./math/media.js";
 import { multiplicacao } from "./math/multiplicacao.js";
 import { porcentagem } from "./math/porcentagem.js";
 import { potencia } from "./math/potencia.js";
-import { raizQ } from "./math/raiz-quadrada.js";
+import { raizQ } from "./math/raizQ.js";
 import { soma } from "./math/soma.js";
 import { subtracao } from "./math/subtracao.js";       
 
@@ -172,8 +172,8 @@ export class App {
             resultadoMultiplicacao.innerHTML = multiplicacao(num1.value, num2.value);
             resultadoMultiplicacaoInstead.innerHTML = multiplicacao(num2.value, num1.value);
 
-            resultadoPorcentagem.innerHTML = porcentagem(num1.value, num2.value) + "%";
-            resultadoPorcentagemInstead.innerHTML = porcentagem(num2.value, num1.value) + "%";
+            resultadoPorcentagem.innerHTML = porcentagem(num1.value, num2.value) /*+ "%"*/;
+            resultadoPorcentagemInstead.innerHTML = porcentagem(num2.value, num1.value) /*+ "%"*/;
 
             resultadoPotencia.innerHTML = potencia(num1.value, num2.value);
             resultadoPotenciaInstead.innerHTML = potencia(num2.value, num1.value);
