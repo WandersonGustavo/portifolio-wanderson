@@ -172,8 +172,8 @@ export class App {
             resultadoMultiplicacao.innerHTML = multiplicacao(num1.value, num2.value);
             resultadoMultiplicacaoInstead.innerHTML = multiplicacao(num2.value, num1.value);
 
-            resultadoPorcentagem.innerHTML = porcentagem(num1.value, num2.value) /*+ "%"*/;
-            resultadoPorcentagemInstead.innerHTML = porcentagem(num2.value, num1.value) /*+ "%"*/;
+            resultadoPorcentagem.innerHTML = porcentagem(num1.value, num2.value) + "%";
+            resultadoPorcentagemInstead.innerHTML = porcentagem(num2.value, num1.value) + "%";
 
             resultadoPotencia.innerHTML = potencia(num1.value, num2.value);
             resultadoPotenciaInstead.innerHTML = potencia(num2.value, num1.value);
