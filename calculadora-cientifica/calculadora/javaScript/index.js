@@ -145,7 +145,7 @@ export class App {
 
         const resultadoRaizQ = document.getElementById("resultado-raiz-quadrada");
         const resultadoRaizQInstead = document.getElementById(
-            "resultado-raiz-quadrada-instead"
+            "resultado-raizQ-instead"
         );
 
         const resultadoPotencia = document.getElementById("resultado-potencia");
