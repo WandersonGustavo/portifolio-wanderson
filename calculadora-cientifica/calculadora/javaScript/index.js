@@ -45,15 +45,15 @@ export class App {
             "resultado-fatorial-instead"
         );
 
-       /* const resultadoRaizQ = document.getElementById("resultado-raiz-quadrada");
+        const resultadoRaizQ = document.getElementById("resultado-raiz-quadrada");
         const resultadoRaizQInstead = document.getElementById(
             "resultado-raizQ-instead"
-        );*/
+        );
 
-        /*const resultadoPotencia = document.getElementById("resultado-potencia");
+        const resultadoPotencia = document.getElementById("resultado-potencia");
         const resultadoPotenciaInstead = document.getElementById(
             "resultado-potencia-instead"
-        );*/
+        );
 
         const resultadoMedia = document.getElementById("resultado-media");
         const resultadoMediaInstead = document.getElementById(
