@@ -52,7 +52,7 @@ header {
     padding: 0.5rem;
     border: none;
     border-radius: 0.5rem;
-    background-color: #7ddd00;
+    background-color: yellow;
     color: #fff;
     font-weight: bold;
     cursor: pointer;
@@ -79,7 +79,7 @@ header {
 
 .result-table td {
     padding: 0.5rem;
-    border: 1px solid #ccc;
+    border: 1px solid blue;
 }
 
 .main {
